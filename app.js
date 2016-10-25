@@ -11,3 +11,15 @@ while (num>0){
 	}
 	num--;
 }
+
+console.log("*****next problem*****");
+//day7 shot 2
+
+for (var i=0; i<=100; i++){
+	if (i%9===0){
+		console.log("damn Lucky");
+	}
+	else {
+		console.log(i);
+	}
+}
