@@ -31,11 +31,19 @@ function upArr(arr){
 		myArr.push(arr[i].toUpperCase());
 	}
 
-
-	alert(myArr);
+	document.getElementById('output').innerHTML=myArr;
+	//alert(myArr);
 	return myArr;
 }
-upArr(['a','b','c']);
 
+// upArr(['a','b','c']);
 
-//document.getElementById('output').innerHTML=
+function reverseArr(arr){
+	var revArr=[];
+	for(var i=arr.length-1; i>=0; i--){
+		revArr.push(arr[i]);//.toUpperCase());
+	}
+	document.getElementById('reverse').innerHTML=revArr;
+	return revArr;
+}
+
